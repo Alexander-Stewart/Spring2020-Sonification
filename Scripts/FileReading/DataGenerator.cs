@@ -109,7 +109,7 @@ public class DataGenerator : MonoBehaviour {
                 {
                     float harmonicVal = HarmonicGenerator(l, m, x, y, z);
                     writer.WriteLine((float)Math.Round(x,1) + " " + 
-                        (float)Math.Round(y, 1) + " " + (float)Math.Round(z, 1) + " " + (x+y+z));
+                        (float)Math.Round(y, 1) + " " + (float)Math.Round(z, 1) + " " + harmonicVal);
                 }
             }
         }
